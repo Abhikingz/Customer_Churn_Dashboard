@@ -4,9 +4,9 @@ import numpy as np
 import plotly.express as px
 from churn_model import train_churn_model, get_feature_importance
 
-st.set_page_config(page_title="Customer Churn Prediction & SHAP Dashboard", page_icon="📊", layout="wide")
+st.set_page_config(page_title="Customer Churn Prediction & SHAP Dashboard", page_icon="", layout="wide")
 
-st.title("📊 Customer Churn Prediction & Explainability Dashboard")
+st.title(" Customer Churn Prediction & Explainability Dashboard")
 st.write("Predicting churn risk on 70,000+ telecom customer records using XGBoost and SHAP feature importance.")
 
 model, X, churn = train_churn_model()
